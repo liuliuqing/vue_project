@@ -1,0 +1,143 @@
+/*设置字体*/
+/*设置宽度*/
+/*设置高度*/
+/*设置行高度*/
+/*设置placeholder颜色*/
+/*设置margin*/
+/*设置 padding*/
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+body {
+  font-size: 0.42666667rem;
+  /* 37.5取自 Iphone 6 的宽度做为例子 */
+  /*  定义默认字体大小16px */
+}
+@media screen and (min-width: 768px) {
+  body {
+    width: 768px;
+    margin: 0 auto;
+  }
+}
+body,
+button,
+input,
+select,
+textarea,
+pre {
+  font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.ovhide {
+  overflow: hidden;
+}
+address,
+em,
+i,
+s {
+  font-style: normal;
+}
+button,
+input,
+select {
+  background-color: transparent;
+  border: none;
+  outline: 0;
+}
+input,
+textarea:focus {
+  outline: 0;
+}
+input {
+  -webkit-appearance: none;
+}
+input:-webkit-autofill {
+  background-color: #FAFFBD;
+  background-image: none;
+  color: #000000;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+ol,
+ul {
+  list-style: none;
+}
+a,
+ins,
+s {
+  text-decoration: none;
+  outline: 0;
+}
+textarea {
+  outline: 0;
+  border: 1px solid #e5e5e5;
+}
+img {
+  display: block;
+  max-width: 100%;
+  border: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+.none {
+  display: none;
+}
+.ew {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.boxSizing {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  -webkit-box-sizing: border-box;
+  /* Safari */
+}
+.enableGPU {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.bred {
+  border: 1px solid red;
+}
+/* COMMON STYLE END */
+#test {
+  font-weight: bolder;
+  font-size: 0.42666667rem;
+  /* 37.5取自 Iphone 6 的宽度做为例子 */
+  width: 4rem;
+  height: 1.33333333rem;
+  background-color: red;
+  margin: 0 auto;
+}
